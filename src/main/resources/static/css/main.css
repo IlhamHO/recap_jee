@@ -1,0 +1,101 @@
+nav{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 100000000;
+    background-color:darkturquoise;
+    background: linear-gradient(#3c5cff,#8ad0ff) ;
+    color:cornflowerblue;
+}
+nav h1{
+    display: inline-block;
+}
+nav h1 a{
+    text-decoration: none;
+    color: dimgrey;
+}
+nav h1 a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+nav  ul{
+    display: inline-block;
+    width: auto;
+    list-style: none;
+
+}
+nav ul li {
+    display: inline-block;
+    width: 50px;
+    font-family:"Comic Sans MS";
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'DejaVu Sans Mono',monospace;
+    font-size: 20px;
+    color: dimgrey;
+
+}
+nav ul li a:hover{
+    color: white;
+}
+
+
+#product{
+    width:100%;
+    padding-top: 50px;
+}
+
+table{
+    margin: 50px;
+    width:100%;
+    border: 1px solid black;
+
+}
+table td{
+    font-family: 'DejaVu Sans Mono', monospace;
+    color: #3c5cff;
+}
+.odd {
+    background-color:ghostwhite;
+}
+.even{
+    background-color: white ;
+}
+h1{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+    font-weight: normal;
+    color: steelblue;
+    border-radius: 7px;
+}
+#details{
+    padding-top: 50px;
+    border:1px solid blue;
+    align-content: center;
+}
+#new{
+    padding-top: 50px;
+}
+
+#about{
+    padding-top: 50px;
+
+}
+h4 {
+    font-family: Calibri;
+    color: #3c5cff;
+}
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:blue;
+    color: black;
+    text-align: center;
+}
